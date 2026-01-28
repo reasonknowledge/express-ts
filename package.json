@@ -3,19 +3,37 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev": "bun --watch index.ts",
+    "format": "bun x prettier --write '/**/*.ts'",
+    "start": "bun index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest",
-    "@types/express": "^5.0.6"
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "prettier": "^3.8.1"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5.9.3"
   },
   "dependencies": {
-    "cors": "^2.8.5",
+    "@types/bcrypt": "^6.0.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
     "express": "^5.2.1",
+    "multer": "^2.0.2",
     "mysql": "^2.18.1",
+    "mysql2": "^3.16.2",
     "nodemon": "^3.1.11",
     "sequelize": "^6.37.7",
-    "zod": "^4.2.1"
+    "zod": "^4.3.6"
   }
 }
