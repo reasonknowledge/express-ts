@@ -1,6 +1,5 @@
 import express, { type Response, type Request } from 'express';
 import { initDb } from './Config/db';
-import userRouter from './routes/user.routes';
 import cors from 'cors';
 
 const app = express();
@@ -16,10 +15,6 @@ app.use(
     allowedHeaders: ['Content-Type'],
   }),
 );
-
-app.use('/uploads', express.static('uploads'));
-
-app.use('/api/users', userRouter);
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Bienvenu Hervé');
