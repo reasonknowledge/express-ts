@@ -12,10 +12,10 @@
     "@types/bun": "latest",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
-    "@types/multer": "^2.0.0",
-    "@typescript-eslint/eslint-plugin": "^8.54.0",
-    "@typescript-eslint/parser": "^8.54.0",
-    "eslint": "^9.39.2",
+    "@types/multer": "^2.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.57.1",
+    "@typescript-eslint/parser": "^8.57.1",
+    "eslint": "^9.39.4",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "prettier": "^3.8.1"
@@ -27,13 +27,13 @@
     "@types/bcrypt": "^6.0.0",
     "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
-    "dotenv": "^17.2.3",
+    "dotenv": "^17.3.1",
     "express": "^5.2.1",
-    "multer": "^2.0.2",
+    "multer": "^2.1.1",
     "mysql": "^2.18.1",
-    "mysql2": "^3.16.2",
-    "nodemon": "^3.1.11",
-    "sequelize": "^6.37.7",
+    "mysql2": "^3.20.0",
+    "nodemon": "^3.1.14",
+    "sequelize": "^6.37.8",
     "zod": "^4.3.6"
   }
 }
